@@ -6,7 +6,7 @@ var prefix = ">";
 
 var dispatcher;
 
-client.login("NDk5MjkwNjQ3MTI4MTc4Njg4.D1izdA.xnJ725iQqJSbETe6kz7sL8aEE5o");
+client.log(process.env.TOKEN)
 
 client.on("ready", () => {
   client.user.setGame('>help || ђยภtєг / ן๏г๔คภภє', 'https://www.twitch.tv/fidelio5040');
