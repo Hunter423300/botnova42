@@ -6,7 +6,7 @@ var prefix = ">";
 
 var dispatcher;
 
-client.log(process.env.TOKEN)
+client.login(process.env.TOKEN)
 
 client.on("ready", () => {
   client.user.setGame('>help || ђยภtєг / ן๏г๔คภภє', 'https://www.twitch.tv/fidelio5040');
